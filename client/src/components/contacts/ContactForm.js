@@ -50,6 +50,8 @@ const ContactForm = () => {
       phone: '',
       type: 'personal'
     });
+
+    clearAll();
   };
 
   const clearAll = () => {
